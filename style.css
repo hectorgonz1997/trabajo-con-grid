@@ -1,0 +1,15 @@
+@media screen and (min-width:0px) and (max-width:480px){
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 46%;
+    margin: 5px;
+    
+}
+.img-perfil{
+    border-radius: 50%;
+}
+}
