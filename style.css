@@ -14,14 +14,12 @@ header{
 }
 .linea {
     height: 1px;
-    background-color: black;
+    background-color:#2222 ;
     margin: -8px;
     margin-bottom: 45px;
 }
 .historias {
-    border: solid 1px #22222280;
-    padding: 31px 0px 31px 0px;
-    border: solid 1px #22222280;
+    border: solid 1px #2222;
     padding: 20px 0px 20px 0px;
     width: 90%;
     margin: auto;
@@ -29,9 +27,57 @@ header{
     display:grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 .img-h {
     border-radius: 50px;
     width: 70px;
 }
+.principal{
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "area1 area1"
+    "area2 area2"
+    "area3 area3"
+    "area4 area4";
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 150px;
 }
+.item-1 {
+    grid-area: area1;
+    padding: 71px 0px 0px 0px;
+    border: solid 1px #2222;
+    
+}
+.item-2 {
+    grid-area: area2;
+    padding: 153px 0px 176px 0px;
+    border: solid 1px #2222;
+}
+.item-3 {
+    grid-area: area3;
+    padding: 0px 0px 37px 0px;
+    border: solid 1px #2222;
+}
+.item-4 {
+    grid-area: area4;
+    padding: 0px 0px 111px 0px;
+    border: solid 1px #2222;
+}
+footer {
+    background-color: #222222;
+    margin: -8px;
+    padding: 15px 0px 15px 0px;
+    color: white;
+    text-align: center;
+}
+
+}
+
+
+
+
