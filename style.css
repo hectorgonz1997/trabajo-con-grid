@@ -16,5 +16,22 @@ header{
     height: 1px;
     background-color: black;
     margin: -8px;
+    margin-bottom: 45px;
+}
+.historias {
+    border: solid 1px #22222280;
+    padding: 31px 0px 31px 0px;
+    border: solid 1px #22222280;
+    padding: 20px 0px 20px 0px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+.img-h {
+    border-radius: 50px;
+    width: 70px;
 }
 }
