@@ -12,4 +12,8 @@ header{
 .img-perfil{
     border-radius: 50%;
 }
+.linea {
+    height: 1px;
+    background-color: black;
+}
 }
