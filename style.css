@@ -64,6 +64,13 @@ a {
     width: 90%;
     margin-left: 19px;
 }
+p {
+    font-size: 14px;
+    padding-left: 20px;
+}
+.comentarios {
+    color:#A49B9B ;
+}
 .item-1 {
     grid-area: area1;
     padding: 8px 0px 8px 8px;
@@ -74,8 +81,9 @@ a {
 }
 .item-2 {
     grid-area: area2;
-    padding:28px 0px 5px 0px;
+    padding:28px 0px 13px 0px;
     border: solid 1px #2222;
+    border-bottom: none;
 }
 .item-3 {
     grid-area: area3;
@@ -83,11 +91,14 @@ a {
     display: grid;
     grid-template-columns: 50px 50px 50px 50px;
     padding-left: 20px;
+    border-bottom: none;
+    border-top: none;
 }
 .item-4 {
     grid-area: area4;
-    padding: 0px 0px 129px 0px;
+    padding: 0px 0px 14px 0px;
     border: solid 1px #2222;
+    border-top: none;
 }
 footer {
     background-color: #222222;
@@ -95,7 +106,9 @@ footer {
     padding: 15px 0px 15px 0px;
     color: white;
     text-align: center;
+    border-top: none;
 }
+
 
 }
 
