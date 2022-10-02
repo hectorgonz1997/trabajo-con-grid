@@ -47,21 +47,42 @@ header{
     margin: auto;
     margin-bottom: 150px;
 }
+.img-perf-2{
+    border-radius: 30px;
+}
+a {
+    text-decoration: none;
+    margin-top: 7px;
+    font-size: 30px;
+}
+.nombre {
+    margin-top: 20px;
+    font-size:20px;
+    color: #262626;
+}
+.img-perf-3{
+    width: 90%;
+    margin-left: 19px;
+}
 .item-1 {
     grid-area: area1;
-    padding: 71px 0px 0px 0px;
+    padding: 8px 0px 8px 8px;
     border: solid 1px #2222;
+    display: grid;
+    grid-template-columns: auto 285px 30px;
     
 }
 .item-2 {
     grid-area: area2;
-    padding: 197px 0px 197px 0px;
+    padding:28px 0px 5px 0px;
     border: solid 1px #2222;
 }
 .item-3 {
     grid-area: area3;
-    padding: 0px 0px 37px 0px;
     border: solid 1px #2222;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    padding-left: 20px;
 }
 .item-4 {
     grid-area: area4;
