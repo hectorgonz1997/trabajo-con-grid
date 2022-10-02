@@ -55,7 +55,7 @@ header{
 }
 .item-2 {
     grid-area: area2;
-    padding: 153px 0px 176px 0px;
+    padding: 197px 0px 197px 0px;
     border: solid 1px #2222;
 }
 .item-3 {
@@ -65,7 +65,7 @@ header{
 }
 .item-4 {
     grid-area: area4;
-    padding: 0px 0px 111px 0px;
+    padding: 0px 0px 129px 0px;
     border: solid 1px #2222;
 }
 footer {
